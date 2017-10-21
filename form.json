@@ -1,0 +1,75 @@
+{
+    "cabecalho" : {
+        "titulo" : "Trabalhe conosco",
+        "subtitulo" : "Registro para a vaga de programador junior"
+    },
+    "questoes" : [
+        {
+            "id" : 1,
+            "titulo":"Qual é o seu nome?",
+            "tipo" : "texto-simples"
+        },
+        {
+            "id" : 2,
+            "titulo":"Sexo",
+            "tipo" : "radio",
+            "opcoes" : [
+                {
+                    "id":1,
+                    "texto" : "Masculino"
+                },
+                {
+                    "id":2,
+                    "texto" : "Feminino"
+                }
+            ]
+        },
+        {
+            "id" : 3,
+            "titulo":"Quais das tecnologias abaixo você conhece?",
+            "tipo" : "check",
+            "opcoes" : [
+                {
+                    "id":1,
+                    "texto" : "Java"
+                },
+                {
+                    "id":2,
+                    "texto" : "Kotlin"
+                },
+                {
+                    "id":3,
+                    "texto" : "Spring"
+                },
+                {
+                    "id":4,
+                    "texto" : "Redis"
+                }
+            ]
+        },
+        {
+            "id" : 4,
+            "titulo":"Tem disponibilidade para morar em São Paulo?",
+            "tipo" : "radio",
+            "opcoes" : [
+                {
+                    "id":1,
+                    "texto" : "Sim"
+                },
+                {
+                    "id":2,
+                    "texto" : "Não"
+                }
+            ]
+        },
+        {
+            "id" : 5,
+            "titulo":"Resumo. Fale um pouco sobre você",
+            "tipo" : "texto-longo"
+        }
+    ],
+    "finalizacao" : {
+        "mensagem" : "Obrigado pelo seu interesse em trabalhar conosco.",
+        "url":"http://localhost:8080/api/form"
+    }
+}
