@@ -1,5 +1,5 @@
 <template>
-    <div class="bloco-cabecalho">
+    <div class="cabecalho">
         <h1>{{ titulo }}</h1>
         <h2>{{ subtitulo }}</h2>
     </div>
@@ -15,10 +15,3 @@ export default {
     }
 }
 </script>
-
-<style>
-.bloco-cabecalho{
-    min-height:200px;
-}
-</style>
-

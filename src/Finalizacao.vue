@@ -1,6 +1,6 @@
 <template>
-  <div class="bloco-finalizacao">
-      <h2>{{ mensagem }}</h2>
+  <div class="columns">
+      <h2 class="title">{{ mensagem }}</h2>
   </div>
 </template>
 
@@ -9,9 +9,3 @@ export default {
   props : ["mensagem", "url"]
 }
 </script>
-
-<style>
-.bloco-finalizacao{
-    min-height:200px;
-}
-</style>

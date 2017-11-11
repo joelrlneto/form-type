@@ -1,5 +1,5 @@
 <template>
-    <div class="bloco-questao">
+    <div>
         <questaoTextoSimples v-if="questao.tipo == 'texto-simples'"
                              :questao="questao"
                              @respostaAtualizada="respostaAtualizada"/>
@@ -34,9 +34,3 @@ export default {
     }
 }
 </script>
-
-<style>
-.bloco-questao{
-    min-height:200px;
-}
-</style>

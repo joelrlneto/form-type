@@ -1,8 +1,7 @@
 <template>
     <div>
-        <h3>{{ questao.titulo }}</h3>
-
-        <ul>
+        <label class="titulo-questao">{{ questao.titulo }}</label>
+        <ul class="lista-opcoes">
             <li v-for="opcao in questao.opcoes" v-bind:key="opcao.id">
                 <input type="checkbox" :value="opcao.texto"
                                        @change="atualizarResposta"

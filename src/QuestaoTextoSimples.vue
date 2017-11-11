@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h3>{{ questao.titulo }}</h3>
+        <label class="titulo-questao">{{ questao.titulo }}</label>
         <input type="text" v-model="resposta" @keyup="atualizarResposta">
     </div>
 </template>

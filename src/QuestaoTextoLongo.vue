@@ -1,7 +1,7 @@
 <template>
     <div>
-        <h3>{{ questao.titulo }}</h3>
-        <textarea v-model="resposta" @keyup="atualizarResposta"></textarea>
+        <label class="titulo-questao">{{ questao.titulo }}</label>
+        <textarea v-model="resposta" @keyup="atualizarResposta" class="textarea"></textarea>
     </div>    
 </template>
 
